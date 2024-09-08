@@ -1,0 +1,28 @@
+html {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    background-color: purple;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 2px 10px rgb(43, 43, 43);
+}
+
+nav h1 {
+    color: white;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+}
+
+.info_post {
+    margin: 20px 20px 20px 20px;
+}
+
+.btn-color {
+    color: #fff;
+    background-color: rgb(186, 44, 186);
+    border-color: rgb(186, 44, 186);
+}

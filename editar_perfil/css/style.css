@@ -1,0 +1,779 @@
+.edicion-perfil {
+  background: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 22px;
+  box-sizing: border-box;
+}
+.edicion-perfil .navigation {
+  border-radius: 11px;
+  background: url('../assets/images/image_3.png') 50% / cover no-repeat;
+  position: relative;
+  margin-bottom: 19px;
+  width: 740x;
+  height: 68px;
+  margin-top: -7.8px;
+}
+.edicion-perfil .container {
+  position: absolute;
+  left: 18.1px;
+  right: 12px;
+  bottom: -9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 22px 0 15px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .union-1 {
+  position: absolute;
+  left: 50%;
+  top: 14px;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 77px;
+  display: flex;
+  text-align: center;
+  
+}
+.edicion-perfil .icon-list {
+  position: relative;
+  margin: 9px 0 13px 0;
+  display: flex;
+  width: 41px;
+  height: 36px;
+  box-sizing: border-box;
+  top: 15px;
+}
+.edicion-perfil .vector {
+  width: 30.8px;
+  height: 18px;
+}
+
+.edicion-perfil .perfil {
+  position: relative;
+  margin: 10px 0 14px 0;
+  display: inline-block;
+  overflow-wrap: normal;
+  font-family: 'Jersey 10', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 1;
+  background: linear-gradient(180deg, #FFFFFF 29.4%, #C9C9C9 73.95%, #A9A9AA 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  top: 8px;
+  text-align: center;
+  z-index: 1;
+}
+.edicion-perfil .photo-by-roman-kokoev {
+  border-radius: 47px;
+  border: 1px solid #4302A5;
+  background: url('../assets/perfil.png') 50% / cover no-repeat;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 13px;
+}
+
+.edicion-perfil .nombre {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--input-field-label-font-family, 'Roboto');
+  font-weight: var(--input-field-label-font-weight, 400);
+  font-size: var(--input-field-label-font-size, 9px);
+  letter-spacing: var(--input-field-label-letter-spacing, 1.8px);
+  text-transform: var(--input-field-label-text-transform, uppercase);
+  color: var(--black, #000000);
+}
+.edicion-perfil .usuario {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.667;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .rectangle-1 {
+  margin: 2px 0;
+  width: 2px;
+  height: 16px;
+}
+.edicion-perfil .textbox {
+  border-radius: 4px;
+  border: 2px solid var(--gray, #C9C9C9);
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5px 0 2.5px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox .inputNombre{
+  flex-grow: 1;
+}
+
+.edicion-perfil .textbox input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox .inputNombre{
+  flex-grow: 1;
+}
+.edicion-perfil .input-text-active {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edicion-perfil .direccin {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--input-field-label-font-family, 'Roboto');
+  font-weight: var(--input-field-label-font-weight, 400);
+  font-size: var(--input-field-label-font-size, 9px);
+  letter-spacing: var(--input-field-label-letter-spacing, 1.8px);
+  text-transform: var(--input-field-label-text-transform, uppercase);
+  color: var(--black, #000000);
+}
+.edicion-perfil .mi-casa {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray, #A6A6A6);
+}
+.edicion-perfil .rectangle-2{
+  margin-top: 14px;
+}
+
+.edicion-perfil .textbox-2 {
+  border-radius: 4px;
+  border: 2px solid var(--gray, #C9C9C9);
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5px 0 2.5px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox-2 input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox-2 .inputDireccion{
+  flex-grow: 1;
+}
+
+.edicion-perfil .input-text-active-direccion {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .container-3 {
+  margin: 0 15px 7px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 171px;
+  box-sizing: border-box;
+}
+.edicion-perfil .photo-by-roman-kokoev-1 {
+  border-radius: 60px;
+  border: 1px solid #4302A5;
+  background: url('../assets/perfil.png') 50% / cover no-repeat;
+  margin: 11px 8.2px 0 0;
+  height: 97px;
+  flex-grow: 1;
+  flex-basis: 97px;
+}
+.edicion-perfil .icon {
+  width: 21.8px;
+  height: 21.8px;
+}
+.edicion-perfil .edit {
+  margin: 80px 0 6.2px 0;
+  display: flex;
+  width: 26px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.edicion-perfil .container-5 {
+  margin: 0 18px 7px 0;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 18px);
+  box-sizing: border-box;
+}
+.edicion-perfil .sobre-mi {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--input-field-label-font-family, 'Roboto');
+  font-weight: var(--input-field-label-font-weight, 400);
+  font-size: var(--input-field-label-font-size, 9px);
+  letter-spacing: var(--input-field-label-letter-spacing, 1.8px);
+  text-transform: var(--input-field-label-text-transform, uppercase);
+  color: var(--black, #000000);
+}
+.edicion-perfil .text-field-data {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray, #A6A6A6);
+}
+.edicion-perfil .textbox-1 {
+  border-radius: 4px;
+  border: 1px solid var(--gray, #A6A6A6);
+  background: var(--white, #FFFFFF);
+  padding: 7px 7px 106px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox-1 input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .input-text-active-2 {
+  margin: 0 6px 14px 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 6px);
+  box-sizing: border-box;
+}
+.edicion-perfil .tags-favoritas {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--input-field-label-font-family, 'Roboto');
+  font-weight: var(--input-field-label-font-weight, 400);
+  font-size: var(--input-field-label-font-size, 9px);
+  letter-spacing: var(--input-field-label-letter-spacing, 1.8px);
+  text-transform: var(--input-field-label-text-transform, uppercase);
+  color: var(--black, #000000);
+}
+.edicion-perfil .buscar-tags {
+  margin-right: 7px;
+  width: 131px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .vector-2 {
+  width: 8px;
+  height: 4px;
+}
+.edicion-perfil .chevron {
+  margin: 5px 0;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+}
+.edicion-perfil .dropdown-box {
+  border-radius: 4px;
+  border: 2px solid var(--blue, #73A2FF);
+  background: var(--white, #FFFFFF);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px 8px 7px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-7 {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .tag-8 {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .tag-9 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .text-fields-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.edicion-perfil .scrollbar-1 {
+  border-radius: 2px;
+  background: var(--light-gray, #DBDBDB);
+  margin-bottom: 34px;
+  width: 4px;
+  height: 40px;
+}
+.edicion-perfil .dropdown-1 {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--light-gray, #DBDBDB);
+  background: var(--white, #FFFFFF);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .container-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .input-dropdown-selected {
+  margin: 0 11px 3px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 165px;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-1 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-1 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-57 {
+  position: relative;
+  margin-bottom: 9.3px;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-2 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-2 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete-1 {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-58 {
+  position: relative;
+  margin-bottom: 9.3px;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-3 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-3 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete-2 {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-59 {
+  position: relative;
+  margin-bottom: 9.3px;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-4 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-4 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete-3 {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-60 {
+  position: relative;
+  margin-bottom: 9.3px;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-5 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-5 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete-4 {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-61 {
+  position: relative;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 11.3px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.edicion-perfil .tag-6 {
+  position: absolute;
+  left: -112.8px;
+  top: -1.6px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--false-black, #404040);
+}
+.edicion-perfil .icon-6 {
+  width: 11.3px;
+  height: 12.8px;
+}
+.edicion-perfil .delete-5 {
+  display: flex;
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-62 {
+  position: absolute;
+  left: 50%;
+  bottom: -22px;
+  translate: -50% 0;
+  display: flex;
+  width: 127px;
+  height: 14px;
+  box-sizing: border-box;
+}
+.edicion-perfil .text-fields {
+  position: relative;
+  margin: 1.1px 10.8px 0 0;
+  display: flex;
+  width: 127px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.edicion-perfil .scrollbar {
+  border-radius: 2px;
+  background: var(--light-gray, #DBDBDB);
+  margin-bottom: 61.9px;
+  width: 4px;
+  height: 40px;
+}
+.edicion-perfil .dropdown {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--light-gray, #DBDBDB);
+  background: var(--white, #FFFFFF);
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 7px 17.1px 0;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 155px;
+  box-sizing: border-box;
+}
+.edicion-perfil .container-4 {
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.edicion-perfil .links {
+  margin-bottom: 9px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.edicion-perfil .icon-7 {
+  width: 24.4px;
+  height: 26.3px;
+}
+.edicion-perfil .github {
+  margin: 1.2px 9.1px 2.5px 0;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.edicion-perfil .link {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray, #A6A6A6);
+}
+.edicion-perfil .textbox-3 {
+  border-radius: 4px;
+  border: 1px solid var(--gray, #A6A6A6);
+  background: var(--white, #FFFFFF);
+  padding: 7px;
+  flex-grow: 1;
+  flex-basis: 295px;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox-3 input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .textbox-3 {
+  flex-grow: 1;
+}
+.edicion-perfil .frame-64 {
+  margin: 0 0 13px 2.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 2.5px);
+  box-sizing: border-box;
+}
+.edicion-perfil .icon-8 {
+  width: 27.5px;
+  height: 22.4px;
+}
+.edicion-perfil .twitter {
+  margin: 3.7px 7.3px 3.8px 0;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.edicion-perfil .link-1 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray, #A6A6A6);
+}
+.edicion-perfil .textbox-4 {
+  border-radius: 4px;
+  border: 1px solid var(--gray, #A6A6A6);
+  background: var(--white, #FFFFFF);
+  padding: 7px;
+  flex-grow: 1;
+  flex-basis: 295px;
+  box-sizing: border-box;
+}
+
+.edicion-perfil .textbox-4 input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-65 {
+  margin: 0 0 13px 1.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 1.3px);
+  box-sizing: border-box;
+}
+.edicion-perfil .icon-9 {
+  width: 25px;
+  height: 23.8px;
+}
+.edicion-perfil .linkedin {
+  margin: 2.5px 8.5px 3.8px 0;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.edicion-perfil .link-2 {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--gray, #A6A6A6);
+}
+.edicion-perfil .textbox-5 {
+  border-radius: 4px;
+  border: 1px solid var(--gray, #A6A6A6);
+  background: var(--white, #FFFFFF);
+  padding: 7px;
+  flex-grow: 1;
+  flex-basis: 295px;
+  box-sizing: border-box;
+}
+
+.edicion-perfil .textbox-5 input[type="text"]{
+  border: none;
+  outline:#C9C9C9;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 16px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-66 {
+  margin-left: 2.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 2.5px);
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-63 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  top:-10px;
+  box-sizing: border-box;
+}
+.edicion-perfil .frame-55 {
+  margin: 0 23px 48px 21px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+.edicion-perfil .atras {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 0.941;
+  color: #FFFFFF;
+}
+.edicion-perfil .frame-37 {
+  border-radius: 6px;
+  background: #631CD0;
+  margin: 0 21px;
+  display: flex;
+  align-self: flex-start;
+  padding: 10px 0;
+  width: 88px;
+  box-sizing: border-box;
+}
