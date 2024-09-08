@@ -1,0 +1,122 @@
+.comment-post .vector {
+  width: 30.8px;
+  height: 18px;
+}
+.comment-post .icon-list {
+  margin: 11px 0;
+  display: flex;
+  width: 41px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.comment-post .photo-by-roman-kokoev {
+  border-radius: 50px;
+  border: 1px solid #4302A5;
+  background: url('../assets/images/photo_by_roman_kokoev.png') 50% / cover no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.comment-post .navigation {
+  border-radius: 11px;
+  background: url('../assets/images/image_3.png') 50% / cover no-repeat;
+  position: relative;
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 22px 12px 7px 18.1px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.comment-post .rectangle-32 {
+  mix-blend-mode: darken;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 187px;
+  height: 55px;
+}
+.comment-post .mis-post {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Jersey 10', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 0.41;
+  color: #000000;
+}
+.comment-post .comentarios {
+  position: relative;
+  margin-right: 46px;
+  display: flex;
+  padding: 19.5px 13px 19.5px 0;
+  width: 203px;
+  box-sizing: border-box;
+}
+.comment-post .cantidad {
+  overflow-wrap: break-word;
+  font-family: 'Jersey 10', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 0.41;
+  color: #000000;
+}
+.comment-post .cantidad-coments {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #D9D9D9;
+  position: relative;
+  margin-top: 4px;
+  display: flex;
+  padding: 17.5px 3.7px;
+  box-sizing: border-box;
+}
+.comment-post .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.comment-post .arrow-1 {
+  background: #000000;
+  position: absolute;
+  right: 57px;
+  bottom: 23px;
+  width: 36px;
+  height: 0px;
+}
+.comment-post .container-2 {
+  position: relative;
+  margin: 0 26px 26px 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.comment-post .ihave-this-problem-in-python {
+  overflow-wrap: break-word;
+  font-family: 'Jersey 10', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.667;
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0), #D9D9D9), linear-gradient(#000000, #000000);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.comment-post .container-1 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 32px 0 18px;
+  padding: 20.5px 4px 23.5px 4px;
+  width: calc(100% - 50px);
+  box-sizing: border-box;
+}
+.comment-post {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 537px;
+  box-sizing: border-box;
+}
