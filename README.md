@@ -1,5 +1,5 @@
 # ProyectoINGweb
-# Descripdion del trabajo
+# Descripcion del trabajo
 
 Nuestra mayor motivacion para al creacion de esta aplicacion web es poder acercar a la gente que esta entrando
 o ya se encuentra en el mundo de la programacion para darles una grata experiencia en 
